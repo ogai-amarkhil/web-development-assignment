@@ -1,0 +1,17 @@
+p {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{color:red;}
+.special {
+    color: green;
+    font-size: 20px;
+}
+#extraspecial{
+    color: yellow;
+    font-size: 30px;
+}
+section p,h3 {
+    color: purple;
+    font-size: 18px;
+}

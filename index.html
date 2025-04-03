@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="meta tag" content="width=device-width, initial-scale=1.0">
     <title>Web page creation with basic HTML tags</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        p {
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body{color:red;}
+        .special {
+            color: green;
+            font-size: 20px;
+        }
+        #extraspecial{
+            color: yellow;
+            font-size: 30px;
+        }
+        section p,h3 {
+            color: purple;
+            font-size: 18px;
+        }
+    </style> -->
 </head>
 <body>
     <h1>Welcome to My Web Page</h1>
     <h2>In the following section you will see basic HTML tags, thi one is h2</h2>
-    <p>This is a sample paragraph to demonstrate HTML elements.</p>
+    <p style="color: blueviolet; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">This is a sample paragraph to demonstrate HTML elements.</p>
     
     <ul>
         <li>This is un-ordered list item 1</li>
@@ -33,5 +53,13 @@
     <iframe width="400" height="300" src="https://www.youtube.com/embed/VMUx7s6mgH8?si=K5vg-OPednTeRLL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <br>
     <h3>This line is to check if new changes has been committed.</h3>
+    <p>This is also another paragraph</p>
+    <p class="special">This is a paragraph with .special class</p>
+    <p id="extraspecial">This is another paragraph with id extraspecial</p>
+    <section>
+        <h3>Section Heading</h3>
+        <p>This is a paragraph inside a section.</p>
+        <p>This is another paragraph inside the same section.</p>
+    </section>
 </body>
 </html>
